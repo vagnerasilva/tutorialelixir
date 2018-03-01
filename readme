@@ -1,0 +1,15 @@
+## como executar esse docker 
+
+
+docker run --name elixirCont -p 8100:8100 -p 35729:35729 -p 3000:3000 -p 5000:5000 -p 4000:4000   -v /Users/vagner.antonio.silva/Documents/apps/elixir/code:/code -i -t  fb5211db596f /bin/bash
+
+
+Docker exec
+
+Docker 
+
+docker exec -i -t e9705ee33d8e /bin/bash
+
+
+-8.113325,
+-34.9126986,17
