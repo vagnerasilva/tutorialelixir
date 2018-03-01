@@ -7,6 +7,7 @@ defmodule PlugEx.Mixfile do
       version: "0.1.0",
       elixir: "~> 1.5",
       start_permanent: Mix.env == :prod,
+      build_embedded: Mix.env == :prod,
       deps: deps()
     ]
   end
@@ -15,7 +16,8 @@ defmodule PlugEx.Mixfile do
   def application do
     [
       extra_applications: [:logger, :plug, :cowboy],
-      mod: {PlugEx,[]}]
+      mod: {PlugEx,[]},
+      env:[cowboy_port: 5000]]
   end
 
   # Run "mix help deps" to learn about dependencies.
