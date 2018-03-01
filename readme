@@ -26,3 +26,20 @@ Rodando em localhost:5000/
 localhost:5000/
 localhost:5000/home
 localhost:5000/about/:{"string"}
+
+
+
+# docker ps -a 
+
+todos os containers ativos e funcionando
+
+# docker ps 
+
+Todos os containers ativos
+
+# docker images 
+
+imagens que temos para realizar containers 
+
+
+
