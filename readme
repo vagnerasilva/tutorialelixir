@@ -1,18 +1,28 @@
 ## como executar esse docker 
 
-
+# subindo imagem que o dockerfile criou para iniciar um container com este volume e com estas portas abertas
 docker run --name elixirCont -p 8100:8100 -p 35729:35729 -p 3000:3000 -p 5000:5000 -p 4000:4000   -v /Users/vagner.antonio.silva/Documents/apps/elixir/code:/code -i -t  fb5211db596f /bin/bash
 
+# ligando container caso tenha saindo do bash
+docker start e9705ee33d8e
 
-Docker exec
-
-Docker 
-
+# entrando em terminal bash para interagir dentro do container
 docker exec -i -t e9705ee33d8e /bin/bash
 
+# verificando tudo que esta ativo dentro do docker 
+ps -ef
+
+# encerrando o processo em execucao pelo pid
+kill -9  pid
 
 - Tutorial Plug 
     Exemplo de crud
         GET
         Static
         GET:string
+
+Rodando em localhost:5000/
+
+localhost:5000/
+localhost:5000/home
+localhost:5000/about/:{"string"}
