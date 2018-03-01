@@ -11,5 +11,8 @@ Docker
 docker exec -i -t e9705ee33d8e /bin/bash
 
 
--8.113325,
--34.9126986,17
+- Tutorial Plug 
+    Exemplo de crud
+        GET
+        Static
+        GET:string
