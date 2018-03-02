@@ -10,7 +10,7 @@ docker start e9705ee33d8e
 docker exec -i -t e9705ee33d8e /bin/bash
 
 # verificando tudo que esta ativo dentro do docker 
-ps -ef
+ps -ef  # matar este processo para liberar a porta 4000 novamente /usr/lib/erlang/erts-9.2/bin/bea
 
 # encerrando o processo em execucao pelo pid
 kill -9  pid
